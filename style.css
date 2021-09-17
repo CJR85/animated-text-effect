@@ -92,6 +92,13 @@ nav ul li a:hover::after {
   background: url(https://static.vecteezy.com/system/resources/thumbnails/000/183/134/small/Free_Chainmail_Pattern_Vector_13.jpg);
   -webkit-background-clip: text;
   background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
 }
 
 .text-box h3 {
